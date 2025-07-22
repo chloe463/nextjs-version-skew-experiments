@@ -1,7 +1,8 @@
 import express, { Express } from "express";
-import { NextServer } from "next/dist/server/next";
 
 import next from "next";
+
+type NextServer = ReturnType<typeof next>;
 
 const { PORT = 3000, NODE_ENV } = process.env;
 const dev = process.env.NODE_ENV !== "production";
