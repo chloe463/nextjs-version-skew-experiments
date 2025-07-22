@@ -12,10 +12,8 @@ export const ExpressServer = (nextApp: NextServer): Express => {
   const handle = nextApp.getRequestHandler();
 
   app.all("/*", async (req, res) => {
-    // return handle(req, res);
     try {
       return await handle(req, res);
-      // return await handle(req as IncomingMessage, res as ServerResponse);
     } catch (err: any) {
       // eslint-disable-next-line no-console
       console.error(err);
