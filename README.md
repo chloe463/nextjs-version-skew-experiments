@@ -2,7 +2,7 @@
 
 <!-- TODO: ブログへのリンクを入れる -->
 
-2025/07/24 (Thu) に公開した「Next.js Version Skew 真相究明編」というブログ記事で紹介している、実験のために利用したリポジトリです。
+2025/07/24 (Thu) に公開した「[Next.js Version Skew 真相究明編](https://www.wantedly.com/companies/wantedly/post_articles/991937)」というブログ記事で紹介している、実験のために利用したリポジトリです。
 
 - `repro` ブランチで記事中で紹介した問題の再現ができます。
 - `fix` ブランチでは該当の問題を修正しています
